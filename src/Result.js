@@ -6,8 +6,8 @@ export default function Result(props) {
   if (props.result) {
     return (
       <div className="Results">
-        <p>{props.result.word}</p>
-        <h1>{props.result.phonetic}</h1>
+        <p className="word text-capitalize">{props.result.word}</p>
+        <h1 className="phonetic">/{props.result.phonetic}/</h1>
         <h3> synonym</h3>
         {props.result.meanings.map(function (meaning, index) {
           return (

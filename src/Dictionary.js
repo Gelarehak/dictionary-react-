@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Result from "./Result";
+import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
+import "./Dictionary.css";
 
 export default function Dictionary() {
   const [keyword, setKeyword] = useState("");
@@ -23,8 +25,8 @@ export default function Dictionary() {
         <input
           type="text"
           placeholder="Search for a word"
-          className="form-control"
           onChange={keywordChange}
+          className="form"
         />
       </form>
       <Result result={result} />
