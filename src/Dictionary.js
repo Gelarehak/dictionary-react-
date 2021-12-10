@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
+import axios from "axios";
 
 export default function Dictionary() {
+  const [keyword, setKeyword] = useState("");
+
+  function handleResponse(response) {
+    console.Log(response);
+  }
   function handelSubmit(event) {
     event.preventDefault();
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+    axios.get(apiUrl).then(handleResponse);
   }
   function keywordChange(event) {
-    console.log(event.target.value);
+    setKeyword(event.target.value);
   }
   return (
     <div className="Dictionary">
@@ -20,3 +28,4 @@ export default function Dictionary() {
     </div>
   );
 }
+//documantation :https://dictionaryapi.dev/
