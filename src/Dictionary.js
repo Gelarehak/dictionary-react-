@@ -29,6 +29,7 @@ export default function Dictionary() {
           className="form"
         />
       </form>
+
       <Result result={result} />
     </div>
   );
