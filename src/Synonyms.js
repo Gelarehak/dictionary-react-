@@ -6,11 +6,13 @@ export default function Synonyms(props) {
       <h3 className="wordSynonyms">
         {" "}
         {props.synonyms.map(function (synonyms, index) {
-          return (
-            <li key={index} className="synonym">
-              {synonyms} /
-            </li>
-          );
+          if (index < 5) {
+            return (
+              <li key={index} className="synonym">
+                {synonyms} /
+              </li>
+            );
+          }
         })}
       </h3>
     );
