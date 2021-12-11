@@ -1,54 +1,52 @@
+section {
+  background-color: #c0ccc4;
+  margin: 10px;
+  border-radius: 8px;
+  padding: 20px;
+}
+.header {
+  font-size: 20px;
+}
 .form {
-  margin: 20px;
   border: 1px solid rgb(209, 209, 209);
   border-radius: 4px;
-  padding: 5px 330px 5px 10px;
+  width: 100%;
+  padding-bottom: 8px;
 }
 .word {
   font-size: 30px;
   font-weight: bold;
-  margin: 0px 20px;
-}
-.phonetic {
-  font-size: 18px;
-  margin-left: 0px;
-  padding-top: 22px;
-}
-.Meaning {
-  text-align: justify;
-}
-.partOfSpeech {
-  font-size: 20px;
-  opacity: 0.8;
-  margin-bottom: 5px;
-  margin-top: 25px;
-  margin-left: 20px;
-}
-
-.definition {
-  margin: 12px 40px 0px;
-}
-.example {
-  margin: 0px 40px 0px;
-  color: green;
-}
-.synonym {
-  list-style: none;
-  font-size: 15px;
-  font-weight: normal;
-  display: inline;
-  margin: 0px auto;
-  padding: 0px;
-}
-.audiobutton {
-  border-radius: 20px;
-  margin: 10px;
-  padding: 0px 15px;
-  border: 0px;
-  background-color: white;
 }
 .audio {
   padding: 0px;
-  margin: 0px auto;
   width: 90px;
+}
+.phonetic {
+  font-size: 22px;
+  margin-left: 30px;
+  padding-top: 12px;
+}
+
+.partOfSpeech {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.definition {
+  margin: 15px 40px 0px;
+}
+.example {
+  margin: 0px 40px 10px;
+  color: #335a6d;
+  font-style: italic;
+}
+.synonym {
+  font-size: 15px;
+  font-weight: normal;
+  padding: 5px 10px;
+  margin-left: 20px;
+  border-radius: 20px;
+  border: 1px solid #335a6d;
+  background-color: #c0ccc4;
 }

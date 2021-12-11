@@ -8,9 +8,9 @@ export default function Synonyms(props) {
         {props.synonyms.map(function (synonyms, index) {
           if (index < 5) {
             return (
-              <li key={index} className="synonym">
-                {synonyms} /
-              </li>
+              <button key={index} className="synonym">
+                {synonyms}
+              </button>
             );
           }
         })}
