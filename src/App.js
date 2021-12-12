@@ -10,6 +10,11 @@ export default function App() {
           <Dictionary defaultWord="cat" />
         </div>
       </header>
+      <footer>
+        This project was coded by Gelareh Akasheh and is open-sourced on{" "}
+        <a href="https://github.com/Gelarehak/dictionary-react-"> GitHub </a>
+        and hosted on Netlify.
+      </footer>
     </div>
   );
 }
