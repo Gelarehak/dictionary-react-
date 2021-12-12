@@ -1,9 +1,8 @@
 section {
-  background-color: #c0ccc4;
+  background-color: #f5f5f5;
   margin: 20px;
   border-radius: 8px;
   padding: 20px;
-  box-shadow: 0px 0px 30px #e6eee9;
 }
 .header {
   font-size: 20px;
@@ -49,5 +48,5 @@ section {
   margin-left: 20px;
   border-radius: 20px;
   border: 1px solid #335a6d;
-  background-color: #c0ccc4;
+  background-color: #f5f5f5;
 }

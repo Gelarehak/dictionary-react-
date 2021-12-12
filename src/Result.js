@@ -3,7 +3,6 @@ import Meaning from "./Meaning";
 import Phonetics from "./Phonetics";
 
 export default function Result(props) {
-  console.log(props.result);
   if (props.result) {
     return (
       <div className="Results">
