@@ -13,6 +13,7 @@ export default function Synonyms(props) {
               </button>
             );
           }
+          return null;
         })}
       </h3>
     );
