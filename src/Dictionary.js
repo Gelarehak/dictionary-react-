@@ -50,7 +50,7 @@ export default function Dictionary(props) {
           <form onSubmit={handelSubmit}>
             <input
               type="text"
-              placeholder="Search for a word"
+              placeholder=" Search for a word"
               onChange={keywordChange}
               className="form"
             />

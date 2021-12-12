@@ -50,6 +50,9 @@ section {
   border: 1px solid #4c788f;
   background-color: #f5f5f5;
 }
+.photo {
+  border-radius: 5px;
+}
 footer {
   font-size: 13px;
   margin-left: 40px;
